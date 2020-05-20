@@ -20,6 +20,7 @@ jobs:
         node-version: [12.x]
 
     steps:
+      # grant github folder privilege to cirrus user
     - name: chmod
       run: |
         sudo chmod -R 777 $HOME

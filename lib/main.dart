@@ -3,10 +3,10 @@
 /// https://flutter.dev/docs/get-started/flutter-for/react-native-devs
 /// https://github.com/aagarwal1012/Liquid-Pull-To-Refresh
 /// https://github.com/hayderux/electron-quick-start-flutter
-/// 
+///
 /// dev server
 /// flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080
-/// 
+///
 /// electron related:
 /// sudo apt-get install wine-stable
 /// cd build/web
