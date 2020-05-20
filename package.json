@@ -1,13 +1,13 @@
 {
-  "name": "electron-quick-start-flutter",
+  "name": "flutter-example",
   "version": "1.0.0",
   "description": "A minimal Electron application with flutter & dart",
   "main": "debug.js",
   "scripts": {
     "clean": "flutter clean",
     "build": "flutter build web",
-    "build_flutter_server": "flutter run --web-port 8096 -d web-server",
-    "dev": "run-p \"build_flutter_server\" \"start\"",
+    "site": "flutter run --web-hostname 0.0.0.0 --web-port 8080 -d web-server",
+    "dev": "npm run clean & npm run build & npm run site",
     "start": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",

@@ -1,6 +1,14 @@
+/// https://flutter.dev/docs/get-started/web
+/// https://github.com/cirruslabs/docker-images-flutter
+/// https://flutter.dev/docs/get-started/flutter-for/react-native-devs
+/// https://github.com/aagarwal1012/Liquid-Pull-To-Refresh
+/// https://github.com/hayderux/electron-quick-start-flutter
+/// flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080
+
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+// entry for the app, better to be async
+void main() async => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
