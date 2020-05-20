@@ -4,12 +4,14 @@
   "description": "A minimal Electron application with flutter & dart",
   "main": "debug.js",
   "scripts": {
+    "electron": "electron .",
     "clean": "flutter clean",
     "build": "flutter build web",
-    "start": "flutter run --web-hostname 0.0.0.0 --web-port 8080 -d web-server",
-    "dev": "npm run clean & npm run build & npm run site",
     "test": "flutter test --no-pub --coverage",
-    "electron": "electron ."
+    "dev": "npm run clean & npm run build & npm run site",
+    "lint": "flutter format --set-exit-if-changed lib & flutter analyze lib",
+    "start": "flutter run --web-hostname 0.0.0.0 --web-port 8080 -d web-server",
+    "postinstall": "flutter config --enable-web & flutter packages get"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "author": "GitHub",
