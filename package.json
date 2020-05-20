@@ -6,9 +6,10 @@
   "scripts": {
     "clean": "flutter clean",
     "build": "flutter build web",
-    "site": "flutter run --web-hostname 0.0.0.0 --web-port 8080 -d web-server",
+    "start": "flutter run --web-hostname 0.0.0.0 --web-port 8080 -d web-server",
     "dev": "npm run clean & npm run build & npm run site",
-    "start": "electron ."
+    "test": "flutter test --no-pub --coverage",
+    "electron": "electron ."
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "author": "GitHub",

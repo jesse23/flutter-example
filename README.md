@@ -1,8 +1,6 @@
 # electron-quick-start-flutter
 A minimal Electron application with flutter & dart
 
-![Screenshot](screenshots/main.png)
-
 ## To Use
 
 ```bash
