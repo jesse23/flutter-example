@@ -3,9 +3,19 @@
 /// https://flutter.dev/docs/get-started/flutter-for/react-native-devs
 /// https://github.com/aagarwal1012/Liquid-Pull-To-Refresh
 /// https://github.com/hayderux/electron-quick-start-flutter
+/// 
+/// dev server
 /// flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080
+/// 
+/// electron related:
+/// sudo apt-get install wine-stable
+/// cd build/web
+/// npm i
+/// npm run package
+/// zip -r app.zip "Flutter App-win32-x64"
 
 import 'package:flutter/material.dart';
+import 'package:hello_world/testwidget.dart';
 
 // entry for the app, better to be async
 void main() async => runApp(MyApp());
@@ -63,6 +73,9 @@ class MyHomePage extends StatelessWidget {
               'Hello, World!',
               style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
             ),
+            TestWidget(
+              name: 'Moster Hunter',
+            )
           ],
         ),
       ), // This trailing comma makes auto-formatting nicer for build methods.
