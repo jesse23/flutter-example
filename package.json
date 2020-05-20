@@ -1,5 +1,5 @@
 {
-  "name": "flutter-example",
+  "name": "few_flutter",
   "version": "1.0.0",
   "description": "A minimal Electron application with flutter & dart",
   "main": "debug.js",

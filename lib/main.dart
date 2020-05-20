@@ -15,7 +15,7 @@
 /// zip -r app.zip "Flutter App-win32-x64"
 
 import 'package:flutter/material.dart';
-import 'package:hello_world/testwidget.dart';
+import 'package:few_flutter/testwidget.dart';
 
 // entry for the app, better to be async
 void main() async => runApp(MyApp());
