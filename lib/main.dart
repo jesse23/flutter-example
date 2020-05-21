@@ -15,7 +15,8 @@
 /// zip -r app.zip "Flutter App-win32-x64"
 
 import 'package:flutter/material.dart';
-import 'package:few_flutter/testwidget.dart';
+import 'package:few_flutter/TestWidget.dart';
+import 'package:few_flutter/TestView.dart';
 
 // entry for the app, better to be async
 void main() async => runApp(MyApp());
@@ -45,10 +46,12 @@ class MyHomePage extends StatelessWidget {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
+      /*
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.add),
         onPressed: () {},
       ),
+      */
       body: Center(
         // Center is a layout widget. It takes a single child and positions it
         // in the middle of the parent.
@@ -75,6 +78,9 @@ class MyHomePage extends StatelessWidget {
             ),
             TestWidget(
               name: 'Moster Hunter',
+            ),
+            TestView(
+              title: 'test',
             )
           ],
         ),
