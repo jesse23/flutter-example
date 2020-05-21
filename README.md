@@ -12,7 +12,7 @@ npm test
 ```
  
 ## Release
-To build for production, first run `npm run build`.
+To build for production, run `npm run build`.
 
 The output directory, `build` contains a `package.json` pointing to the built
 application, and can be run as follows:
@@ -23,7 +23,7 @@ npm install
 npm start
 ```
 ## Package
-The output directory's package manifest, build/package.json, includes electron-packager, and therefore can be packaged for distribution on Windows, MacOS, and Linux.
+The output directory's package manifest, build/package.json, includes electron-packager, and therefore can be packaged for distribution on Windows, macOS, and Linux.
 
 to build for the host platform run:
 ``` 
