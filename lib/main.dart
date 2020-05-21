@@ -3,6 +3,7 @@
 /// https://flutter.dev/docs/get-started/flutter-for/react-native-devs
 /// https://github.com/aagarwal1012/Liquid-Pull-To-Refresh
 /// https://github.com/hayderux/electron-quick-start-flutter
+/// https://stackoverflow.com/questions/52330102/use-js-library-in-flutter
 ///
 /// dev server
 /// flutter run -d web-server --web-hostname 0.0.0.0 --web-port 8080
@@ -14,12 +15,16 @@
 /// npm run package
 /// zip -r app.zip "Flutter App-win32-x64"
 
+import 'dart:js';
 import 'package:flutter/material.dart';
 import 'package:few_flutter/TestWidget.dart';
 import 'package:few_flutter/TestView.dart';
 
 // entry for the app, better to be async
-void main() async => runApp(MyApp());
+void main() async {
+  runApp(MyApp());
+  context.callMethod('alert', ['Hello from Dart!']);
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
