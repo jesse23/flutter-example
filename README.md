@@ -1,4 +1,5 @@
-# electron-quick-start-flutter
+![build and test](https://github.com/jesse23/flutter-example/workflows/build%20and%20test/badge.svg)
+# few flutter
 A minimal Electron application with flutter & dart
 
 ## To Use
