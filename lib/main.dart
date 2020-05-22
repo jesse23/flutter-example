@@ -15,6 +15,7 @@
 /// npm run package
 /// zip -r app.zip "Flutter App-win32-x64"
 
+/// https://dev.to/graphicbeacon/how-to-use-javascript-libraries-in-your-dart-applications--4mc6
 import 'dart:js';
 import 'package:flutter/material.dart';
 import 'package:few_flutter/TestWidget.dart';
